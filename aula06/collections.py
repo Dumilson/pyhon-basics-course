@@ -1,6 +1,6 @@
  # collection 
  # list são arrays 
- # truple
+ # truple  - () Lista imutavel 
  # set
  # insert - inseri um elemento em uma coleção escolhendo a posição 
  # pop - removo o ultimo valor 
@@ -11,7 +11,7 @@
  
  #se quer pegar o valor de uma lista de traz  para frente é só usar o -
  
-familia = ["Eu", "Code"]
+familia = ["Eu", "Code", "Nana"]
 # sonhos = {"nome", "Ser Rico"}
 
 #modificando o valor do indece
@@ -25,8 +25,22 @@ familia = ["Eu", "Code"]
 # familia.pop(1)
 # familia.remove("texto")
 
-# familia.clear();
-print(familia.index("Eu"))
+#ordernar a lista de forma crescente
+#familia.sort()
+
+#Oposto de Sorte
+# familia.reverse()
+
+# Referencia de variavel 
+# familia2 = familia
+
+#Guardar uma copia 
+familia2 = familia.copy()
+
+print(familia2)
+familia.remove("Code")
+print(familia2,familia)
+
 # print(familia)
 # for i in range(2):
 #     print(familia[i])
