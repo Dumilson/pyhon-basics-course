@@ -17,4 +17,4 @@ set2 = [
     }
 ]
 
-print(set2)
+print(set2[0].get(100))
