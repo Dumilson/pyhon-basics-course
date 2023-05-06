@@ -16,3 +16,4 @@ pessoas.append({
 for item in pessoas:
     print(f"Nome: {item['nome']} ")
     print(f"Idade: {item['idade']} \n")
+    
